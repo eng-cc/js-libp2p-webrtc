@@ -4,3 +4,5 @@ import { WebRTCTransport, WebRTCTransportComponents } from './transport.js'
 export function webRTC (): (components: WebRTCTransportComponents) => Transport {
   return (components: WebRTCTransportComponents) => new WebRTCTransport(components)
 }
+
+console.log('test')
